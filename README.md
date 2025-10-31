@@ -42,7 +42,3 @@ The core challenge is to create a persistent, interactive social experience usin
 * **CSS3:** For all styling, layout (Flexbox/Grid), and responsiveness.
 * **JavaScript (ES6+):** For all client-side logic, DOM manipulation, and interactivity.
 * **`localStorage`:** For the client-side "database" to store all user and app data.
-
-## 📂 Project Structure
-
-Here is the recommended file structure for the project:

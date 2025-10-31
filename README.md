@@ -14,8 +14,6 @@ The core challenge is to create a persistent, interactive social experience usin
 
 ## 📸 Screenshots
 
-*(Add screenshots of your project here. This is the best way to show your mentor what you've built!)*
-
 | Login Page | Prompt Feed | Chat Room |
 | :---: | :---: | :---: |
 |  |  | 

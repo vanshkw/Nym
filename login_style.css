@@ -1,0 +1,200 @@
+body {
+    background-color: #0b0f17;
+    color: white;
+    font-family: "Momo Trust Display", sans-serif;
+    margin: 0;
+    padding: 90px;
+    position: relative;
+    height: 100vh;
+    
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    z-index: -1;
+}
+
+/* Center everything */
+.container {
+    margin-top: 10px;
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    
+}
+
+/* Titles */
+
+.logo img{
+    position: absolute;
+    top: 30px;
+    left:5px;
+    background-size: contain;
+    width: 200px;
+    border-radius: 50px;
+}
+.title {
+    color: #00C9A7;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: bolder;
+    transition: 1s;
+}
+.title:hover{
+    transform: scale(1.07);
+}
+
+.main-title {
+    font-size: 2.7rem;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    margin: 3px 0;
+    color: white;
+    transition: 1s;
+}
+
+.main-title:hover{
+    transform: scale(1.04);
+}
+
+.sub-text {
+    color: #ababab;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+/* Main box */
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 0 18px rgba(100, 220, 255, 0.45);
+    text-align: left;
+    transition: 1s;
+    margin-bottom: 40px;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+
+}
+.box:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 12px #00C9A7;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-direction: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Input field */
+.box input {
+    width: 95%;
+    padding: 12px;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    background-color: #dce2e6;
+    font-size: 15px;
+
+}
+.box label {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Requirements text */
+.requirements {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #00C9A7;
+
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 14px;
+    background: linear-gradient(to right, #67e8f9, #00C9A7);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 12px #00C9A7;
+}
+
+/* Info sections */
+.info-box {
+    background-color: #111a28;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 18px;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+}
+.info-box h3{
+
+    font-size: 1.7rem;
+}
+.dual-identity img{
+    position: relative;
+    height: 120px;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+.privacy img{
+    position: relative;
+    height: 120px;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+
+/* Footer */
+.footer{
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Responsive for small screens */
+@media (max-width: 480px) {
+    .main-title { font-size: 22px; }
+    .box, .info-box { padding: 15px; }
+    button { padding: 10px; }
+   
+}
+
+

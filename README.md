@@ -12,14 +12,6 @@ This is the **Semester 1 Capstone Project** for the SNW subject at Newton School
 
 The core challenge is to create a persistent, interactive social experience using only client-side technologies, with no backend server or database.
 
-## 📸 Screenshots
-
-| Login Page | Prompt Feed | Chat Room |
-| :---: | :---: | :---: |
-|  |  | 
-
-[Image of Chat Room]
- |
 
 ## ✨ Core Features
 

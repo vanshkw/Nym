@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Page</title>
+    <link rel="stylesheet" href="settings_style.css">
+</head>
+<body>
+
+    <video autoplay muted loop id="myVideo" >
+        <source src="assets/bg videos/settings.webm" type="video/webm">
+    </video>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="back">← Back</a>
+        <h1 class="title">Settings</h1>
+        <button class="reset-btn">Reset</button>
+    </header>
+
+    <!-- SECTION 1: Identity -->
+    <section class="box">
+        <h2 class="section-title">🎭 Public Persona</h2>
+        <p class="section-info">
+            This is how you appear to others. 
+            You can change your pseudonym anytime.
+        </p>
+
+        <div class="profile-row">
+            <div class="profile-pic">👾</div>
+
+            <div class="profile-info">
+                <h3 class="profile-name">NeonWalker_99</h3>
+                <p class="profile-id">ID: #8F3A21</p>
+            </div>
+
+            <button class="simple-btn">🎲 Reroll</button>
+        </div>
+
+        <label class="label">Theme Color</label>
+        <div class="color-row">
+            <div class="color-circle teal"></div>
+            <div class="color-circle purple"></div>
+            <div class="color-circle blue"></div>
+            <div class="color-circle rose"></div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: Content Filters -->
+    <section class="box">
+        <h2 class="section-title">🛡️ Content Filters</h2>
+
+        <label class="label">Muted Words</label>
+        <input type="text" placeholder="Add a word..." class="input">
+        <div class="tag-list">
+            <span class="tag">spoilers ✖</span>
+            <span class="tag">politics ✖</span>
+        </div>
+
+        <div class="toggle-row">
+            <div>
+                <h3 class="toggle-title">Blur NSFW Media</h3>
+                <p class="toggle-text">Automatically blur sensitive content</p>
+            </div>
+            <input type="checkbox">
+        </div>
+
+        <div class="toggle-row">
+            <div>
+                <h3 class="toggle-title">Strict Anonymity</h3>
+                <p class="toggle-text">Hide avatars & names</p>
+            </div>
+            <input type="checkbox">
+        </div>
+    </section>
+
+    <!-- SECTION 3: Privacy -->
+    <section class="box">
+        <h2 class="section-title">👁️ Privacy & Data</h2>
+
+        <div class="toggle-row">
+            <div>
+                <h3 class="toggle-title">Allow Messages</h3>
+                <p class="toggle-text">Let users message you</p>
+            </div>
+            <input type="checkbox">
+        </div>
+
+        <hr class="divider">
+
+        <div class="toggle-row">
+            <div>
+                <h3 class="toggle-title">Clear Local History</h3>
+                <p class="toggle-text">Delete search & cache</p>
+            </div>
+            <button class="danger-btn">Clear</button>
+        </div>
+    </section>
+
+</div>
+
+
+
+
+</body>
+</html>
